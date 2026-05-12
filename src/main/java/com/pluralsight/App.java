@@ -1,0 +1,13 @@
+package com.pluralsight;
+
+public class App {
+    public static void main(String[] args) {
+        Moped slowRide = new Moped("blue", 2, 2, 5);
+        slowRide.setColor("Red");
+        slowRide.setFuelCapacity(5);
+        System.out.println(slowRide.getColor());
+        System.out.println(slowRide.getFuelCapacity());
+
+
+    }
+}
