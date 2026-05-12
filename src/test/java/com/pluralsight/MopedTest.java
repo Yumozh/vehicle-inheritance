@@ -9,8 +9,6 @@ public class MopedTest {
     public void constructor_shouldInitializeAllFieldsCorrectly() {
         Moped slowRide = new Moped("green", 2, 2, 5);
 
-        slowRide.getColor();
-
         assertEquals("green", slowRide.getColor());
         assertEquals(2, slowRide.getNumberOfPassengers());
         assertEquals(2, slowRide.getCargoCapacity());
